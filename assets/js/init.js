@@ -23,7 +23,7 @@ const displayData = (allData) =>{
                     />
                 </div>
                 <div class="card-body text-center">
-                    <h5 class="card-title">${data.title}</h5>
+                    <h5 class="card-title fw-bold">${data.title}</h5>
                 </div>
             </div>
         `
