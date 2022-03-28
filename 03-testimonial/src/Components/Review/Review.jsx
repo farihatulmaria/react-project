@@ -29,13 +29,13 @@ const Review = () => {
         });
     }
 
-const randomPerson = () => {
-    let randomNum = Math.floor(Math.random() * people.length);
-    if(randomNum === index){
-        randomNum = index + 1;
+    const randomPerson = () => {
+        let randomNum = Math.floor(Math.random() * people.length);
+        if(randomNum === index){
+            randomNum = index + 1;
+        }
+        setIndex(checkTheNumber(randomNum))
     }
-    setIndex(checkTheNumber(randomNum))
-}
 
     return (
         <article className='review'>

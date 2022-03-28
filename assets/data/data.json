@@ -9,6 +9,16 @@
       "id": 2,
       "title": "Tour-Info",
       "image": "assets/img/react-project-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Testimonial",
+      "image": "assets/img/react-project-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Accordion",
+      "image": "assets/img/react-project-4.png"
     }
   ]
 }
